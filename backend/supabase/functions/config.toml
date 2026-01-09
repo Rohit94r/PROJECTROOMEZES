@@ -1,0 +1,11 @@
+[functions]
+  [functions.canteen]
+    verify_jwt = true
+  [functions.orders]
+    verify_jwt = true
+  [functions.rooms]
+    verify_jwt = true
+  [functions.community]
+    verify_jwt = true
+  [functions.events]
+    verify_jwt = true

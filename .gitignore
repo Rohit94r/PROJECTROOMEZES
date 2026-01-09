@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env*
+!.env.example
+
+# Next.js
+.next/
+out/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary folders
+tmp/
+temp/
+
+# Nuxt
+.nuxt/
+*.nuxt/
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Supabase local
+supabase/.temp/
+supabase/migrations/
+
+# Local Supabase development
+.supabase/
+
+# IDE
+.vscode/
+.idea/
+
+# Compiled JavaScript
+*.js
+!frontend/src/**/*.js
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

@@ -1,0 +1,22 @@
+{
+  "name": "roomezes-supabase-backend",
+  "version": "2.0.0",
+  "description": "Supabase backend for Roomezes - A Student-Centric Digital Platform for Campus Living & Daily Services",
+  "keywords": [
+    "roomezes",
+    "student",
+    "canteen",
+    "rooms",
+    "mess",
+    "laundry",
+    "printing",
+    "events",
+    "atharva-college",
+    "supabase",
+    "postgresql",
+    "auth",
+    "realtime"
+  ],
+  "author": "Rohit",
+  "license": "MIT"
+}

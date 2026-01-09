@@ -1,0 +1,37 @@
+# Setup instructions: https://supabase.com/docs/guides/cli/initial-setup
+# Reference: https://supabase.com/docs/guides/cli/configuration
+
+[api]
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+
+[db]
+port = 54322
+major_version = 15
+
+[studio]
+port = 54323
+
+# Email configuration
+[auth]
+enable_signup = true
+site_url = "http://localhost:3000"
+redirect_uri = "http://localhost:3000/auth/callback"
+additional_redirect_urls = ["http://localhost:3000"]
+
+[auth.email]
+enable_signup = true
+double_opt_in = false
+
+[auth.sms]
+enable_signup = true
+enable_confirmations = true
+
+# Enable the anon key (public-facing key)
+[auth.anon_key]
+enabled = true
+
+# Enable the service_role key (private key)
+[auth.service_role_key]
+enabled = true
